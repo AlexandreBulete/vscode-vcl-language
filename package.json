@@ -1,6 +1,6 @@
 {
 	"name": "vcl-language",
-	"displayName": "VCL Language Support",
+	"displayName": "Varnish VCL Language Support",
 	"description": "Syntax highlighting for Varnish Configuration Language",
 	"version": "1.0.0",
 	"publisher": "alexandrebulete",
