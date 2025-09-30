@@ -1,0 +1,66 @@
+{
+	"name": "vcl-language",
+	"displayName": "VCL Language Support",
+	"description": "Syntax highlighting for Varnish Configuration Language",
+	"version": "1.0.0",
+	"publisher": "alexandrebulete",
+	"icon": "images/icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/alexandrebulete/vscode-vcl-language"
+	},
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"categories": [
+		"Programming Languages",
+		"Themes"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "vcl",
+				"aliases": [
+					"VCL",
+					"Varnish Configuration Language"
+				],
+				"extensions": [
+					".vcl"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "vcl",
+				"scopeName": "source.vcl",
+				"path": "./syntaxes/vcl.tmLanguage.json"
+			}
+		],
+		"themes": [
+			{
+				"label": "VCL Dark Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/vcl-theme.json"
+			},
+			{
+				"label": "VCL Light Theme",
+				"uiTheme": "vs",
+				"path": "./themes/vcl-theme.json"
+			}
+		]
+	},
+	"keywords": [
+		"vcl",
+		"varnish",
+		"cache",
+		"syntax",
+		"alexandrebulete"
+	],
+	"license": "MIT",
+	"__metadata": {
+		"installedTimestamp": 1759221512379,
+		"targetPlatform": "undefined",
+		"size": 16752
+	}
+}
